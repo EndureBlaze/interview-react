@@ -1,0 +1,25 @@
+.language-switcher .language-list {
+  list-style: none;
+  display: flex;
+  align-items: flex-end;
+}
+
+.language-switcher .language-list li {
+  margin-right: 20px;
+}
+
+.language-switcher .language-list li:last-child {
+  margin-right: 0;
+}
+
+.language-switcher .language-list li p {
+  cursor: pointer;
+  color: #6060608e;
+  font-size: 1.25rem;
+  transition: 0.4s;
+  line-height: 1;
+}
+
+.language-switcher .language-list li p:hover {
+  color: #000000;
+}

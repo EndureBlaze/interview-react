@@ -26,8 +26,8 @@ i18n
     },
 
     resources: {
-      'zh-CN': zhCnTranslation,
-      'en-US': enUsTranslation,
+      'zh-CN': { translation: zhCnTranslation },
+      'en-US': { translation: enUsTranslation },
     },
     detection: {
       // order and from where user language should be detected
